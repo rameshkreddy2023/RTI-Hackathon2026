@@ -1,4 +1,4 @@
-# Gather data
+# Gather data - Collect all the data from the source system
 
 ## Backstory
 Currently Fabrikam’s data estate and pipelines are heavily fragmented. Hack your way to bring data from disparate sources and unify them in RTI. Using various connectors available in Eventstream, you can get data from streaming sources, and CDC from databases. Rich transformations are possible within Eventstream to cleanse and transform the data. Schema registry allows you to setup a robust and resilient streaming pipeline that can respond to changing schemas.
@@ -21,7 +21,7 @@ For running this Act,
 Assets, Operators, and sites are static data you need refer from Lakehouse.
 Manufacturing production data is streaming from Eventstream.
 
-    Hint: Use accelerated shortcuts for static data
+    Hint: Use accelerated shortcuts for static data 
 
 ## 3. Ingest Shipping data
 Shipping events are pushed to an Azure blob storage in real-time
